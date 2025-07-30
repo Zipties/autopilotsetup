@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  autopilot:
+    image: autopilot-static-site:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    deploy:
+      labels:
+        - "traefik.enable=true"
+        - "traefik.http.routers.autopilot.rule=Host(`autopilot.mcd.so`)"
+        - "traefik.http.routers.autopilot.entrypoints=websecure"
+        - "traefik.http.routers.autopilot.tls.certresolver=letsencrypt"
+        - "traefik.http.services.autopilot.loadbalancer.server.port=80"
+    networks:
+      - traefik
+    restart: unless-stopped
+
+networks:
+  traefik:
+    external: true
