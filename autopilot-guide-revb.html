@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crosby & Kaneda: New Device Setup Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Simple scroll-to-top button styling */
+        #to-top-btn {
+            transition: opacity 0.3s, visibility 0.3s;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Scroll-to-top button -->
+    <button id="to-top-btn" class="fixed bottom-5 right-5 bg-red-700 text-white p-3 rounded-full shadow-lg hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50 opacity-0 invisible z-50">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+        </svg>
+    </button>
+
+    <div class="container mx-auto p-4 sm:p-8 max-w-4xl">
+        
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <img src="./images/IMG_1761.jpg" alt="Crosby & Kaneda Logo" class="w-64 mx-auto" onerror="this.onerror=null;this.src='https://placehold.co/256x64/ffffff/c41e23?text=Crosby+%26+Kaneda';">
+            <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mt-4">New Device Setup Guide</h1>
+            <p class="text-lg text-gray-600 mt-2">A step-by-step guide to setting up your new company device with Microsoft Autopilot.</p>
+        </header>
+
+        <!-- Introduction -->
+        <div class="bg-white p-6 rounded-lg shadow-md mb-8 border-l-4 border-red-700">
+            <h2 class="text-2xl font-bold mb-4">Welcome!</h2>
+            <p class="mb-4">This guide will walk you through setting up your new Windows computer. Your device is managed by Microsoft Autopilot, which automatically configures it with the necessary settings and applications.</p>
+            <h3 class="font-semibold text-lg mb-2">Before you begin:</h3>
+            <ul class="list-disc list-inside space-y-2 text-gray-700">
+                <li>Ensure your device is plugged into a power source.</li>
+                <li>You will need a reliable internet connection (Wi-Fi or Ethernet).</li>
+                <li>Have your smartphone available for setting up your account security.</li>
+                <li class="font-semibold"><strong>Important:</strong> The setup process involves several steps and may require you to sign in multiple times. Your computer might also restart automatically. This is a normal part of the process.</li>
+            </ul>
+        </div>
+
+        <!-- Steps -->
+        <div class="space-y-12">
+
+            <!-- Part 1: Initial Steps -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold mb-4 text-red-800">Part 1: Initial Device Setup</h3>
+                <div class="space-y-8">
+                    <!-- Region Selection -->
+                    <div class="flex flex-col md:flex-row gap-6 items-center">
+                        <div class="md:w-1/2">
+                            <p class="font-semibold">1. Power On & Select Region</p>
+                            <p>Power on your new laptop. At the first screen, confirm your country or region is set to <strong>United States</strong> and click <strong>Yes</strong>.</p>
+                        </div>
+                        <div class="md:w-1/2">
+                            <img src="./images/IMG_1730.jpg" alt="Region selection screen" class="rounded-lg shadow-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/600x450/e0e0e0/333333?text=Region+Selection';">
+                        </div>
+                    </div>
+                    <!-- Network Connection -->
+                    <div class="flex flex-col md:flex-row-reverse gap-6 items-center">
+                        <div class="md:w-1/2">
+                            <p class="font-semibold">2. Connect to a Network</p>
+                            <p>Connect to a Wi-Fi network. Select your network, check <strong>Connect automatically</strong>, and click <strong>Connect</strong>. Enter the password if needed. Your device will then check for updates.</p>
+                        </div>
+                        <div class="md:w-1/2">
+                            <img src="./images/IMG_1731.jpg" alt="Network connection screen" class="rounded-lg shadow-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/600x450/e0e0e0/333333?text=Network+Connection';">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Part 2: Account Security & Authenticator Setup -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold mb-4 text-red-800">Part 2: Account Security & Authenticator Setup</h3>
+                <div class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-800 p-4 rounded-md mb-6">
+                    <p><strong>Heads up!</strong> For this part, you will switch between your computer and your smartphone.</p>
+                </div>
+                <div class="space-y-8">
+                    <!-- Initial Sign in -->
+                    <div class="flex flex-col md:flex-row gap-6 items-center">
+                        <div class="md:w-1/2">
+                            <p class="font-semibold">3. Sign In to Your Work Account</p>
+                            <p>At the "Let's set things up for your work or school" screen, enter your full company email address (e.g., <code>employee@ck.cpa</code>) and click <strong>Next</strong>. You will be prompted for your password on the following screen.</p>
+                        </div>
+                        <div class="md:w-1/2">
+                            <img src="./images/IMG_1736.jpg" alt="Sign in screen" class="rounded-lg shadow-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/600x450/e0e0e0/333333?text=Sign+In';">
+                        </div>
+                    </div>
+                    <!-- Secure account prompt -->
+                    <div class="flex flex-col md:flex-row-reverse gap-6 items-center">
+                        <div class="md:w-1/2">
+                             <p class="font-semibold">4. Begin Security Setup</p>
+                            <p>To keep your account safe, we require multi-factor authentication. At the "Let's keep your account secure" screen, click <strong>Next</strong> to begin.</p>
+                        </div>
+                        <div class="md:w-1/2">
+                            <img src="./images/IMG_1737.jpg" alt="Keep your account secure prompt" class="rounded-lg shadow-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/600x450/e0e0e0/333333?text=Secure+Account';">
+                        </div>
+                    </div>
+                    <!-- Get Authenticator App -->
+                    <div class="flex flex-col md:flex-row gap-6 items-center">
+                        <div class="md:w-1/2">
+                             <p class="font-semibold">5. Get the Microsoft Authenticator App</p>
+                            <p>Your PC will now prompt you to set up the Authenticator app. If you don't have it, download it from your phone's app store. When you add an account in the app, choose the <strong>Sign In</strong> option, not "Scan QR code".</p>
+                        </div>
+                        <div class="md:w-1/2 grid grid-cols-2 gap-4">
+                            <img src="./images/IMG_1738.jpg" alt="Get the authenticator app screen" class="rounded-lg shadow-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/600x450/e0e0e0/333333?text=Get+Authenticator+App';">
+                            <img src="./images/m authenticator scan qr code.jpg" alt="Sign in or scan QR code" class="rounded-lg shadow-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/300x600/e0e0e0/333333?text=Sign+In+Option';">
+                        </div>
+                    </div>
+                    <!-- Add Account on Phone -->
+                    <div class="flex flex-col md:flex-row-reverse gap-6 items-center">
+                        <div class="md:w-1/2">
+                            <p class="font-semibold">6. On Your Phone: Add Your Account</p>
+                            <p>In the Authenticator app, tap to add an account (+), select <strong>Work or school account</strong>, and then tap <strong>Sign in</strong>. Follow the prompts to sign in with your company email and password on your phone.</p>
+                        </div>
+                        <div class="md:w-1/2 grid grid-cols-2 gap-4">
+                             <img src="./images/IMG_1739.jpg" alt="Add account on phone" class="rounded-lg shadow-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/300x600/e0e0e0/333333?text=Add+Account';">
+                             <img src="./images/IMG_1740.jpg" alt="Select work account" class="rounded-lg shadow-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/300x600/e0e0e0/333333?text=Work+Account';">
+                        </div>
+                    </div>
+                     <!-- Enter Code -->
+                    <div class="flex flex-col md:flex-row gap-6 items-center">
+                        <div class="md:w-1/2">
+                            <p class="font-semibold">7. Verify Your Identity</p>
+                            <p>After signing in on your phone, the Authenticator app will show a <strong>One-time password code</strong>. Switch back to your computer, enter this code into the prompt, and click <strong>Verify</strong>.</p>
+                        </div>
+                        <div class="md:w-1/2 grid grid-cols-2 gap-4">
+                            <img src="./images/IMG_1741.jpg" alt="Authenticator code on phone" class="rounded-lg shadow-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/300x600/e0e0e0/333333?text=Authenticator+Code';">
+                            <img src="./images/IMG_1742.jpg" alt="Enter code on PC" class="rounded-lg shadow-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/600x450/e0e0e0/333333?text=Enter+Code';">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Part 3: Automatic Device Configuration -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold mb-4 text-red-800">Part 3: Automatic Device Configuration</h3>
+                <div class="space-y-8">
+                    <div class="flex flex-col md:flex-row gap-6 items-center">
+                        <div class="md:w-1/2">
+                            <p class="font-semibold">8. Device Configuration Begins</p>
+                            <p>Your computer will now begin the main configuration process. This will take several minutes. <strong>You may be required to enter another code from your authenticator app during this step.</strong> Your device may also restart automatically. Please be patient and do not turn off the computer.</p>
+                        </div>
+                        <div class="md:w-1/2">
+                            <img src="./images/IMG_1744.jpg" alt="Device setup progress" class="rounded-lg shadow-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/600x450/e0e0e0/333333?text=Device+Setup+Progress';">
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:flex-row-reverse gap-6 items-center">
+                        <div class="md:w-1/2">
+                             <p class="font-semibold">9. Security Setup Confirmed</p>
+                            <p>Once the initial security check is complete, you will see a "Success!" message. Click <strong>Done</strong>. The device will continue setting up in the background.</p>
+                        </div>
+                        <div class="md:w-1/2">
+                            <img src="./images/IMG_1743.jpg" alt="Success screen" class="rounded-lg shadow-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/600x450/e0e0e0/333333?text=Success';">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Part 4: Final Sign-in -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold mb-4 text-red-800">Part 4: Final Sign-in</h3>
+                <div class="flex flex-col md:flex-row gap-6 items-center">
+                    <div class="md:w-1/2">
+                        <p class="font-semibold">10. Sign In After Restart</p>
+                        <p>After the automated setup completes, your computer may restart. At the Windows sign-in screen, <strong>sign in using your full company email and password</strong>.</p>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="./images/IMG_1745.jpg" alt="Windows login screen" class="rounded-lg shadow-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/600x450/e0e0e0/333333?text=Final+Sign-in';">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Part 5: Windows Hello Setup -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold mb-4 text-red-800">Part 5: Windows Hello Setup</h3>
+                <div class="space-y-8">
+                    <!-- Fingerprint -->
+                    <div class="flex flex-col md:flex-row gap-6 items-center">
+                        <div class="md:w-1/2">
+                            <p class="font-semibold">11. Set Up Your Fingerprint (Recommended)</p>
+                            <p>Windows Hello provides a fast, secure sign-in method. When prompted, click <strong>Yes, set up</strong>. Follow the on-screen instructions, repeatedly placing and lifting your finger on the laptop's fingerprint sensor.</p>
+                        </div>
+                        <div class="md:w-1/2 grid grid-cols-2 gap-4">
+                           <img src="./images/IMG_1750.jpg" alt="Fingerprint prompt" class="rounded-lg shadow-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/600x450/e0e0e0/333333?text=Fingerprint+Prompt';">
+                           <img src="./images/IMG_1752.jpg" alt="Using the fingerprint sensor" class="rounded-lg shadow-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/600x450/e0e0e0/333333?text=Fingerprint+Sensor';">
+                        </div>
+                    </div>
+                    <!-- PIN -->
+                    <div class="flex flex-col md:flex-row-reverse gap-6 items-center">
+                        <div class="md:w-1/2">
+                            <p class="font-semibold">12. Create a PIN (Required)</p>
+                            <p>As a backup, you must create a Windows Hello PIN. Click <strong>Next</strong> on the "Create a PIN" screen. Enter and confirm a new PIN that is at least 6 characters long, then click <strong>OK</strong>.</p>
+                        </div>
+                        <div class="md:w-1/2 grid grid-cols-2 gap-4">
+                           <img src="./images/IMG_1756.jpg" alt="Create PIN prompt" class="rounded-lg shadow-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/600x450/e0e0e0/333333?text=Create+PIN';">
+                           <img src="./images/IMG_1758.jpg" alt="Enter PIN screen" class="rounded-lg shadow-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/600x450/e0e0e0/333333?text=Enter+PIN';">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Part 6: Setup Complete -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold mb-4 text-red-800">Part 6: Setup Complete!</h3>
+                <div class="flex flex-col md:flex-row gap-6 items-center">
+                    <div class="md:w-1/2">
+                        <p class="font-semibold">Welcome to Your New Desktop</p>
+                        <p>You're all set! After creating your PIN, you will be taken to your new Windows desktop. Over the next 30 minutes, your computer will automatically install company-managed applications like the Microsoft 365 suite (Outlook, Word, Excel, etc.) in the background.</p>
+                        <p class="mt-4">If you need to install other approved applications, such as Google Chrome, you can do so from the <strong>Company Portal</strong> app. Simply open the Start Menu, find and open Company Portal, and browse for the software you need.</p>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="./images/IMG_1759.jpg" alt="Final desktop screen with Start Menu open" class="rounded-lg shadow-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/600x450/e0e0e0/333333?text=Setup+Complete';">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center mt-12 py-6 border-t border-gray-300">
+            <p class="text-gray-500">&copy; 2025 Crosby & Kaneda. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+    <script>
+        // JavaScript for the scroll-to-top button
+        const toTopBtn = document.getElementById('to-top-btn');
+        
+        // Show button when user scrolls down
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                toTopBtn.classList.remove('opacity-0', 'invisible');
+            } else {
+                toTopBtn.classList.add('opacity-0', 'invisible');
+            }
+        });
+        
+        // Scroll to top when button is clicked
+        toTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
